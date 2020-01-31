@@ -1,4 +1,4 @@
-package com.qrbarcodescanner.fragment;
+package com.alltoolsinoneapp.fragment;
 
 import android.app.Activity;
 import android.content.Context;
@@ -15,7 +15,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
 import com.google.android.material.snackbar.Snackbar;
-import com.qrbarcodescanner.ui.OnFragmentInteractionListener;
+import com.alltoolsinoneapp.ui.OnFragmentInteractionListener;
 
 
 public abstract class BaseFragment extends Fragment {

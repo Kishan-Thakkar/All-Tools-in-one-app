@@ -1,4 +1,4 @@
-package com.qrbarcodescanner;
+package com.alltoolsinoneapp;
 
 import android.app.Application;
 import android.content.Context;

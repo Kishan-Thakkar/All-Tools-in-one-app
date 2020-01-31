@@ -1,4 +1,4 @@
-package com.qrbarcodescanner.ui;
+package com.alltoolsinoneapp.ui;
 
 /**
  * Created by Kishan Thakkar on 1/30/2020.

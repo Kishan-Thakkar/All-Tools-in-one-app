@@ -1,4 +1,4 @@
-package com.qrbarcodescanner.activity;
+package com.alltoolsinoneapp.activity;
 
 import android.app.Activity;
 import android.app.AlarmManager;

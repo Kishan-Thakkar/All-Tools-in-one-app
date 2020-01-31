@@ -1,4 +1,4 @@
-package com.qrbarcodescanner;
+package com.alltoolsinoneapp;
 
 import org.junit.Test;
 

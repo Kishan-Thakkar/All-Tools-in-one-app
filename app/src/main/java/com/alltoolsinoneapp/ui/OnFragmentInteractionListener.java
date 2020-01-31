@@ -1,4 +1,4 @@
-package com.qrbarcodescanner.ui;
+package com.alltoolsinoneapp.ui;
 
 
 /* This interface must be implemented by activities that contain this

@@ -1,14 +1,14 @@
-package com.qrbarcodescanner.activity;
+package com.alltoolsinoneapp.activity;
 
 
 import android.os.Bundle;
 
 import androidx.fragment.app.FragmentManager;
 
-import com.qrbarcodescanner.R;
-import com.qrbarcodescanner.ui.OnFragmentInteractionListener;
-import com.qrbarcodescanner.ui.UiConstants;
-import com.qrbarcodescanner.ui.scanner.ScannerFragment;
+import com.alltoolsinoneapp.R;
+import com.alltoolsinoneapp.ui.OnFragmentInteractionListener;
+import com.alltoolsinoneapp.ui.UiConstants;
+import com.alltoolsinoneapp.ui.scanner.ScannerFragment;
 
 public class MainActivity extends BaseActivity implements OnFragmentInteractionListener {
 

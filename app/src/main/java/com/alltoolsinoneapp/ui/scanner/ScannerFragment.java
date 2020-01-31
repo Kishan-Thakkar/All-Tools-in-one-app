@@ -1,4 +1,4 @@
-package com.qrbarcodescanner.ui.scanner;
+package com.alltoolsinoneapp.ui.scanner;
 
 import android.Manifest;
 import android.app.Activity;
@@ -20,11 +20,11 @@ import com.google.android.gms.vision.CameraSource;
 import com.google.android.gms.vision.Detector;
 import com.google.android.gms.vision.barcode.Barcode;
 import com.google.android.gms.vision.barcode.BarcodeDetector;
-import com.qrbarcodescanner.Utils.AppConstants;
-import com.qrbarcodescanner.R;
-import com.qrbarcodescanner.Utils.DialogUtil;
-import com.qrbarcodescanner.fragment.BaseFragment;
-import com.qrbarcodescanner.ui.UiConstants;
+import com.alltoolsinoneapp.Utils.AppConstants;
+import com.alltoolsinoneapp.R;
+import com.alltoolsinoneapp.Utils.DialogUtil;
+import com.alltoolsinoneapp.fragment.BaseFragment;
+import com.alltoolsinoneapp.ui.UiConstants;
 
 import java.io.IOException;
 
@@ -138,8 +138,17 @@ public class ScannerFragment extends BaseFragment {
 
                         @Override
                         public void run() {
-                            scanResult = barcodes.valueAt(0).displayValue;
-                            DialogUtil.showToast(activity,scanResult);
+
+                           if(barcodes.valueAt(0).wifi!=null)
+                           {
+                               DialogUtil.showToast(activity,"Wifi");
+                           }else {
+                               scanResult = barcodes.valueAt(0).displayValue;
+                               DialogUtil.showToast(activity,"normal");
+                           }
+
+                            //scanResult=   barcodes.valueAt(0).wifi;
+                            //DialogUtil.showToast(activity,scanResult);
 
                         }
 

@@ -1,8 +1,5 @@
-package com.qrbarcodescanner.Utils;
+package com.alltoolsinoneapp.Utils;
 
-import android.app.Activity;
-import android.app.AlertDialog;
-import android.app.DialogFragment;
 import android.content.Context;
 import android.os.Handler;
 import android.text.TextUtils;
