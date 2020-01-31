@@ -8,6 +8,7 @@ import androidx.fragment.app.FragmentManager;
 import com.alltoolsinoneapp.R;
 import com.alltoolsinoneapp.ui.OnFragmentInteractionListener;
 import com.alltoolsinoneapp.ui.UiConstants;
+import com.alltoolsinoneapp.ui.homescreen.HomeScreenFragment;
 import com.alltoolsinoneapp.ui.scanner.ScannerFragment;
 
 public class MainActivity extends BaseActivity implements OnFragmentInteractionListener {
@@ -20,7 +21,7 @@ public class MainActivity extends BaseActivity implements OnFragmentInteractionL
     }
 
     private void updateScreen() {
-        onFragmentInteraction(UiConstants.SCANNER_FRAGMENT, null);
+        onFragmentInteraction(UiConstants.HOME_SCREEN_FRAGMENT, null);
     }
 
     @Override
@@ -36,6 +37,9 @@ public class MainActivity extends BaseActivity implements OnFragmentInteractionL
         mCurrentFragment = fragmentId;
         String mFragmentTag = String.valueOf(fragmentId);
         switch (fragmentId) {
+            case UiConstants.HOME_SCREEN_FRAGMENT:
+                mFragmentManager.beginTransaction().addToBackStack(mFragmentTag).replace(R.id.fragment_main, HomeScreenFragment.newInstance(), mFragmentTag).commitAllowingStateLoss();
+                break;
             case UiConstants.SCANNER_FRAGMENT:
                 mFragmentManager.beginTransaction().addToBackStack(mFragmentTag).replace(R.id.fragment_main, ScannerFragment.newInstance(), mFragmentTag).commitAllowingStateLoss();
                 break;

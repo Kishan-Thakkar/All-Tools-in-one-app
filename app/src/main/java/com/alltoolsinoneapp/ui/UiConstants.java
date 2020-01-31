@@ -7,5 +7,6 @@ package com.alltoolsinoneapp.ui;
  */
 public class UiConstants {
 
-    public static final int SCANNER_FRAGMENT = 1;
+    public static final int HOME_SCREEN_FRAGMENT = 1;
+    public static final int SCANNER_FRAGMENT = 2;
 }

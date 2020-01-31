@@ -18,7 +18,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 /**
  * Created by Kishan Thakkar on 3/19/2019.
- * RapidBox
  * Kishanpujara127@gmail.com
  */
 
