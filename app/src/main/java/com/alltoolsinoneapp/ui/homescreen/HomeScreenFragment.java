@@ -66,6 +66,7 @@ public class HomeScreenFragment extends BaseFragment implements OnFragmentListIt
         List<HomeScreenData> homeScreenDataList = new ArrayList<>();
         homeScreenDataList.add(new HomeScreenData(R.drawable.ic_code, "Barcode scanner"));
         homeScreenDataList.add(new HomeScreenData(R.drawable.ic_code, "Qr Scanner"));
+        homeScreenDataList.add(new HomeScreenData(R.drawable.ic_code,"Calculator"));
         homeScreenAdapter = new HomeScreenAdapter(activity, homeScreenDataList);
         homeScreenAdapter.setListner(this);
         rv_home_screen.setAdapter(homeScreenAdapter);

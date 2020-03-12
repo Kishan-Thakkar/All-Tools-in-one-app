@@ -1,7 +1,153 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
-    <color name="white">#ffffff</color>
+
+    <color name="red">#bc4d9b</color>
+    <color name="editTextColor">@color/colorAccent</color>
+
+    <color name="grey_light">#ffbabcbe</color>
+    <color name="colorPrimaryDark">#29303f</color>
+    //#FC9242
+    <color name="colorPrimary">#5e9ecc</color>
+    <color name="colorAccent">#4c4c4e</color>
+    <color name="colorDivider">#B6B6B6</color>
+    <color name="backgroundColor">@color/white</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="white_greyish">#EEEEEE</color>
+    <color name="text_heading">#e51d2d</color>
+    <color name="transparent_grey">#CCCCCCCC</color>
+    <color name="whiteFF">#edeef2</color>
+    <color name="blue">#3d8fff</color>
+
+    <color name="textColorPrimary">@android:color/black</color>
+    <color name="color_4c4c4e">#4c4c4e</color>
+    <color name="color_7e7e80">#7e7e80</color>
+
+
+
+    //main them color
+    <color name="Main_color">#ffaa67</color>
+    <color name="mainorange">#ffaa67</color>
+    <color name="maindarkorange">#ff8f36</color>
+
+
+    //Text color
+
+    <color name="secondary_text_color">#404040</color>
+    <color name="secondary_text_color_2">#686868</color>
+    <color name="confirmation_message">#2DC76D</color>
+
+
+
+
+    //Backgrounds color
+
+    <color name="primary_bg">#e9e9eb</color>
+    <color name="homebottombar">#f5f6fa</color>
+    <color name="filtersortbg">#e9e9eb</color>
+    <color name="general_border_color">#a1a1a1</color>
+    <color name="lightgray">#f2f2f2</color>
+
+    //new desighn
+
+
+
+    <color name="coral_pink">#FF5764</color>
+    <color name="dark">#282C3F</color>
+    <color name="cool_green">#2DC76D</color>
+    <color name="sunflower_yellow">#FED800</color>
+
+
+    <color name="pale_grey">#f5f5f6</color>
+    <color name="cool_grey">#94969f</color>
+    <color name="orange_red">#ff5722</color>
+
+    <color name="silver">#bfc0c6</color>
+    <color name="bright_yellow">#ffef00</color>
+    <color name="pale_grey_two">#eaeaec</color>
+    <color name="dark_7">#11282c3f</color>
+    <color name="pale_grey_three">#e1f2f1</color>
+    <color name="bright_blue">#017bff</color>
+    <color name="silver_two">#d4d5d9</color>
+    <color name="charcoal_grey">#3e4152</color>
+    <color name="dark_7_61">#9c282c3f</color>
+    <color name="kelly_green">#01a82e</color>
+
+
+    <!-- new rapidbox design !-->
+    <color name="off_white">#fff8eb</color>
+    <color name="mango">#feb627</color>
+    <color name="blacknew">#2b2b2b</color>
+    <color name="black_two">#191919</color>
+    <color name="mango_two">#ffb137</color>
+    <color name="butterscotch_two">#ffad41</color>
+    <color name="butterscotch_three">#feb038</color>
+    <color name="newbutterscotch">#ffc572</color>
+    <color name="dark_blue_grey">#1e2753</color>
+    <color name="hazel">#8e6813</color>
+    <color name="light_gold">#ffcc5a</color>
+    <color name="black_three">#000000</color>
+    <color name="white_two">#f2f2f2</color>
+    <color name="dark_slate_blue">#191d5a</color>
+    <color name="white_three">#f5f5f5</color>
+    <color name="mango_three">#feb233</color>
+    <color name="orangey_yellow">#febc1b</color>
+    <color name="black_four">#262626</color>
+    <color name="darkish_pink">#d6476f</color>
+    <color name="pale_orange">#ffa851</color>
+    <color name="light_orange">#fea949</color>
+    <color name="otp_color">#fdf6e7</color>
+
+
+    grey
+    <color name="thick_black">#000000</color>
+    <color name="faded_black">#333333</color>
+    <color name="light">#BBBBBB</color>
+
+    <color name="dark_blue">#191d5a</color>
+    <color name="faded_blue">#545b7c</color>
+    <color name="grey">#949494</color>
+    <color name="blur">#12000000</color>
+
+    <!-- rewramp!-->
+    <color name="puke_yellow">#c9b01a</color>
+    <color name="browny_green">#79690b</color>
+    <color name="newbutturscotchtwo">#fcb455</color>
+    <color name="greyish">#b5b5b5</color>
+    <color name="butterscotch">#ffad41</color>
+    <color name="bottombackground">#f8f8f8</color>
+    <color name="white_two_new">#f7f7f7</color>
+    <color name="warm_grey">#898989</color>
+    <color name="r_white_three">#fefefe</color>
+    <color name="greyish_two">#b7b7b7</color>
+    <color name="greyish_brown_two">#575757</color>
+    <color name="off_white_two">#fff5e7</color>
+    <color name="wheat">#fccc88</color>
+    <color name="warm_grey_two">#929292</color>
+    <color name="warm_grey_three">#a1a1a1</color>
+    <color name="warm_grey_four">#959595</color>
+    <color name="greyish_three">#acacac</color>
+    <color name="greyish_brown_three">#3b3b3b</color>
+    <color name="orangey_yellow_two">#febf18</color>
+    <color name="medium_green">#39b54a</color>
+    <color name="canary">#fff568</color>
+    <color name="greyish_brown_four">#585349</color>
+    <color name="beige">#efe1c6</color>
+    <color name="grass">#4aae20</color>
+    <color name="tree_green">#41891b</color>
+    <color name="orangey_yellow_three">#febc1c</color>
+    <color name="brightyellow2">#fff200</color>
+    <color name="parchment">#fff9a9</color>
+    <color name="white_five">#ebebeb</color>
+    <color name="vermillion">#f32020</color>
+    <color name="white_six">#e1e1e1</color>
+    <color name="greyish_brown_six">#595959</color>
+    <color name="brownish_grey">#6d6d6d</color>
+    <color name="white_seven">#d7d7d7</color>
+    <color name="pinkish_grey">#c9c9c9</color>
+    <color name="warm_grey_six">#717171</color>
+
+
 </resources>
+

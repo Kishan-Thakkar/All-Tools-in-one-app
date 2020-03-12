@@ -1,3 +1,631 @@
 <resources>
-    <string name="app_name">Qr And Barcode scanner</string>
+
+    <string name="app_name">RapidBox</string>
+    <string name="app_id">540970122994558</string>
+    <string name="Rs">\u20B9</string>
+    <string name="submit">Submit</string>
+    <string name="logout">Logout</string>
+    <string name="confirm">Confirm</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="okay">OK</string>
+    <string name="Retry">RETRY</string>
+    <string name="choose_payment">Select a payment method</string>
+    <string name="cash_on_delivery">Pay with cash when your order is delivered. Keep cash ready at the time of delivery.</string>
+    <string name="make_this_my_default_address">Make this my default address</string>
+    <string name="time">Time</string>
+    <string name="cancel">Cancel</string>
+    <string name="alert">Alert</string>
+    <string name="nomoreproductavailable">We keep adding new items to our collection everyday. Stay tuned!</string>
+    <string name="signup">SignUp</string>
+    <string name="password_is_wrong">Entered password is wrong, You can login with OTP</string>
+    <string name="ruppes_value">₹%1$s</string>
+    <string name="add_address">addAddress</string>
+    <string name="addresstoolbar">SELECT AN ADDRESS</string>
+    <string name="Please_Select_Reason">Please select a reason.</string>
+    <string name="change_password">CHANGE PASSWORD</string>
+    <string name="Thanks_for_the_rating">Thanks for the rating!</string>
+    <string name="ORDER_PLACED">ORDER PLACED</string>
+    <string name="Thank_you_for_rate_us">Thank you for your valuable feedback!</string>
+    <string name="password_change_successfully">Your password has been changed successfully!</string>
+    <string name="edit_address">Edit Address</string>
+    <string name="orders">MY ORDERS</string>
+
+    <string name="please_enter_otp">Please enter OTP. OTP is sent via SMS</string>
+    <string name="sent_to">sent to %1$s</string>
+
+    <string name="payment">Payment</string>
+    <string name="payment_id">paymentId</string>
+    <string name="success">Success</string>
+    <string name="failure">failure</string>
+    <string name="cod">Cash On Delivery</string>
+    <string name="credit_debit">CREDIT/DEBIT</string>
+    <string name="net_banking">NetBanking</string>
+
+    <string name="upi">UPI</string>
+
+    <string name="order_no">Order No: %1$s</string>
+    <string name="Mobile">Mobile Number : %1$s</string>
+    <string name="Select_address">SELECT AN ADDRESS</string>
+    <string name="please_select_address">Please select address</string>
+    <string name="Profile_Update_Successfully">Your profile has been updated successfully!</string>
+
+    <string name="currency">currency</string>
+    <string name="INR">INR</string>
+    <string name="description">description</string>
+    <string name="name">name</string>
+    <string name="ordervalue">"Order # %1$s</string>
+    <string name="amount">amount</string>
+    <string name="TAG">TAG</string>
+
+    <string name="Rozarpayerror">Error in starting Payment Gateway</string>
+    <string name="startPayment">startPayment %1$s</string>
+
+    <string name="Color">Color</string>
+    <string name="Price">Price</string>
+    <string name="ADD_NEW_ADDRESS">ADD NEW ADDRESS</string>
+
+    <string name="Total_Payable">Total Payable:</string>
+    <string name="Continue">Continue</string>
+    <string name="Enter_your_reason">Provide more details here.</string>
+
+
+    <string name="PRICE_DETAILS">PRICE DETAILS</string>
+    <string name="Cart_Total">Cart Total:</string>
+    <string name="Discount">Discount:</string>
+    <string name="SubTotal">Sub Total:</string>
+    <string name="Tax">Tax:</string>
+
+    <string name="Confirm_New_Password">Confirm New Password</string>
+    <string name="CHANGE_PASSWORD">CHANGE PASSWORD</string>
+    <string name="CLEAR_ALL">CLEAR ALL</string>
+    <string name="Apply">Apply</string>
+
+    <string name="DELIVERY_DETAILS">DELIVERY DETAILS</string>
+    <string name="Order_Details">Order summary</string>
+    <string name="ORDER_DETAILS">ORDER DETAILS</string>
+    <string name="Order_No_static">Order No :-  </string>
+    <string name="Order_Placed">Order Placed On: </string>
+    <string name="Total_Items">Total Items:</string>
+    <string name="Shipping_Address">Delivery Address</string>
+    <string name="Payment_Mode">Payment Mode:</string>
+    <string name="RESEND">RESEND OTP</string>
+    <string name="Cash_On_delivery">Cash On Delivery</string>
+
+    <string name="CONFIRM_ORDER">CONFIRM ORDER</string>
+
+    <string name="Amount_static">Amount:</string>
+    <string name="CONTINUE_SHOPPING">CONTINUE SHOPPING</string>
+    <string name="SAVE">SAVE</string>
+    <string name="Verify_OTP">Verify With OTP</string>
+    <string name="Search_Products">What are you looking for?</string>
+
+    <string name="in_order_to_place_order_we_need_Some_information_from_you">Provide your account information for placing order</string>
+
+    <string name="REMOVE">REMOVE</string>
+    <string name="EDIT">EDIT</string>
+    <string name="Delivery">Shipping Charge:</string>
+    <string name="Total_Quantity_static">Total Quantity:</string>
+    <string name="default_mobile_number">+91</string>
+
+    <string name="Sizecart">Size:</string>
+    <string name="Total">Total</string>
+    <string name="Qty">QTY:</string>
+    <string name="Search">Search</string>
+    <string name="Free">FREE</string>
+    <string name="Product_Type">Product Type</string>
+
+    <string name="login">Login</string>
+    <string name="product_details">Product Description</string>
+    <string name="details_of_product">Details of product:</string>
+
+    <string name="textlie">textlie</string>
+    <string name="warranty">WARRANTY</string>
+    <string name="warrenty_text">warrenty text</string>
+    <string name="similar_items">Similar Products</string>
+    <string name="Place_Order">Place Order</string>
+    <string name="Confirm_Order">Confirm Order</string>
+    <string name="LogIn_With_OTP">LogIn With OTP</string>
+    <string name="SIGN_UP">SIGN UP</string>
+    <string name="Log_In">Log In</string>
+    <string name="go">GO!</string>
+    <string name="create_a_new_account">Create a new account</string>
+    <string name="Old_Password_and_new_Password_Can_not_be_same">Old Password and New Password can not be same</string>
+    <string name="Please_provide_Name">Please provide name for delivery details</string>
+    <string name="Please_provide_delivery_details">Please provide additional delivery details</string>
+    <string name="Delivery_details_length">Additional delivery details length must be 2 to 200 character</string>
+    <string name="Please_Provide_Community_Name">Please provide community name</string>
+    <string name="Please_Provide_Community_Address">Please provide community address</string>
+    <string name="Please_Provide_Valid_Pincode">Please provide valid pincode</string>
+
+
+    //generic application message
+    <string name="no_internet">Unable to connect. Please check your Internet Connection.</string>
+    <string name="unable_process">Sorry, problem processing your request.please try again later.</string>
+    <string name="Something_went_wrong_error">Something went wrong!</string>
+    <string name="generic_error">Something went wrong! Please check your internet connectivity and try again.</string>
+    <string name="timeout_error">Something went wrong! Please check your internet connectivity and try again.</string>
+
+    //validation
+    <string name="validate_mobile">Please enter a valid 10 digit mobile number.</string>
+    <string name="validate_email">Enter valid email address</string>
+    <string name="logout_message">Are you sure, You want to logout?</string>
+    <string name="exit_message">Are you sure, You want to exit?</string>
+    <string name="skip_message">Are you sure you want to skip the mobile number verification now?</string>
+    <string name="name_is_required">Please provide name</string>
+    <string name="mobile_number">Please provide contact number</string>
+    <string name="address_is_required">Please provide address</string>
+    <string name="pincode_required">Please provide pincode</string>
+    <string name="please_enter_password">Please enter password</string>
+    <string name="password_and_confirm_password_doesnt_match">Password and confirm password are not matching</string>
+    <string name="password_should_be_min_character">Password should be between 6 to 20 character</string>
+    <string name="Name_should_be_2_40_character">Name should be between 2 to 40 character</string>
+    <string name="city_dist_should_be_2_40_character">City should be between 2 to 40 character</string>
+    <string name="State_should_be_2_40_character">State should be between 2 to 40 character</string>
+    <string name="please_enter_old_password">Please enter old password</string>
+    <string name="please_enter_new_password">Please enter new password</string>
+    <string name="please_enter_confirm_password">Please provide confirm New Password</string>
+    <string name="new_password_and_confirm_password_doesnt_match">New password and confirm are not matching</string>
+    <string name="otp_is_wrong">OTP is wrong. Please enter again</string>
+    <string name="account_number_validation">Please Enter valid Account Number</string>
+    <string name="Please_Reenter_account_Number">Please Reenter account Number</string>
+    <string name="reenter_account_number_not_matching">Account number and re enter account number are not matching.</string>
+    <string name="Beneficiary_should_be_between_character">Beneficiary name should be between 2 to 40 character.</string>
+    <string name="Please_Enter_Bank_Name">Please Enter Bank Name.</string>
+    <string name="Please_enter_ifsc_code">Please Enter IFSC code.</string>
+    <string name="Please_enter_valid_ifsc_code">Please enter valid IFSC code.</string>
+
+
+    //hint
+    <string name="enter_name">Name</string>
+    <string name="enter_email">Email Address</string>
+    <string name="enter_phone">Mobile Number</string>
+    <string name="Please_Enter_Promocode">Please provide community joining code</string>
+    <string name="Please_Enter_Promocode_refer">Please provide referral code</string>
+    //todo with toast message
+    <string name="ReqName">Name*</string>
+    <string name="ReqAddress">Address*</string>
+    <string name="ReqAddressline1">Address Line 1*</string>
+    <string name="ReqAddressline2">Address Line 2*</string>
+    <string name="ReqPincode">Pincode*</string>
+    <string name="ReqCity">City/District*</string>
+    <string name="ReqState">State*</string>
+    <string name="ReqPhone">Phone Number*</string>
+
+    <string name="Old_Password">Old Password</string>
+    <string name="New_Password">New Password</string>
+    <string name="community_name">Community Name*</string>
+    <string name="Additional_Address_details">Enter Address Manually</string>
+    <string name="private_community">Private (Only you or invited members will be able to view or join the community).</string>
+    <string name="Public_community">Public (Viewing and joining is open to all).</string>
+    <string name="Enter_Code_here">Enter community joining code here</string>
+    <string name="Add_a_photo">Add photo ( To let other users know the product better ) </string>
+    <string name="Password">Password*</string>
+    <string name="Email">Email</string>
+    <string name="Confirm_Password">Confirm Password*</string>
+    <string name="Community_Address_hint">Community Address*</string>
+    <string name="loaction_hint">Write or search address for your community here. (You can provide any valid address)</string>
+    //Toast message
+    <string name="noproductavailable">Products not available. Keep watching as we add more products to our selection.</string>
+
+
+    //bottom menu name
+    <string name="Home">Home</string>
+    <string name="deal">99 Store</string>
+    <string name="Collection">Collection</string>
+    <string name="Rewards">Rewards</string>
+
+
+    //menu name
+    <string name="Orders">Orders</string>
+    <string name="Address">Address</string>
+    <string name="Wishlist">Wishlist</string>
+    <string name="Profile">Profile</string>
+    <string name="Share_App">Share App</string>
+    <string name="Rate_us">Rate us</string>
+    <string name="Communities">Community</string>
+    <string name="Support">Support</string>
+    <string name="Safety_and_Policies">Rapidbox Policies</string>
+    <string name="About_Us">About Us</string>
+
+    //sharing text
+    <string name="product_share_txt" formatted="false">Find %s product in RapidBox.\n\nFollow the attached link :\n%s</string>
+    <string name="share_txt">Download RapidBox application.\n Link : https://play.google.com/store/apps/details?id=com.rapidbox</string>
+
+    //date
+    <string name="Now">Now</string>
+    <string name="minute_ago">minute ago</string>
+    <string name="minutes_ago">minutes ago</string>
+    <string name="hour_ago">hour ago</string>
+    <string name="hours_ago">hours ago</string>
+    <string name="day_ago">day ago</string>
+    <string name="days_ago">days ago</string>
+    <string name="month_ago">month ago</string>
+    <string name="months_ago">months ago</string>
+    <string name="year_ago">year ago</string>
+    <string name="years_ago">years ago</string>
+
+    //permission message
+    <string name="permission_rationale">"Please provide storage permission for fetching images from gallery."</string>
+    <string name="permission_rationale_for_sharing">"Please provide storage permission for sharing content."</string>
+    <string name="permission_rationale_for_location">"Please provide location permission for access current location ."</string>
+    <string name="Please_provide_access_for_taking_picture_to_add_Images">Please provide access for taking picture to add Images. </string>
+
+
+    //new messages
+    <string name="error">Error</string>
+    <string name="dialog">dialog</string>
+    <string name="invite_code_appllied_successfully">Code successfully applied!</string>
+    <string name="Update_Required">Application Update Required</string>
+    <string name="Please_Update_Your_App">You are using old version of the application which is no more supported. Please click below to update your APP.</string>
+    <string name="update">UPDATE</string>
+
+    <string name="Verified">Active</string>
+    <string name="Not_Verified">Not Active</string>
+
+
+    //xml message
+
+    <string name="Update_Review">Update Review</string>
+
+    <string name="CHOOSE_A_REASON_FOR_CANCEL">Let us know, why you want to cancel your order?</string>
+    <string name="CHOOSE_A_REASON_FOR_EXCHANGE">Let us know, why you want to exchange your order?</string>
+    <string name="BACK">BACK</string>
+    <string name="Confirm">Confirm</string>
+    <string name="dummyprice">₹299</string>
+    <string name="ruppes">₹</string>
+    <string name="CREATE_NEW_COMMUNITY">CREATE NEW COMMUNITY</string>
+    <string name="Minimum_3_members_will_be_needed_to_activate_the_community">\u2713 Minimum 3 members are required to activate a community</string>
+    <string name="Community_Mode">Community Mode</string>
+    <string name="CANCEL">Cancel</string>
+    <string name="CATEGORIES">CATEGORIES</string>
+    <string name="Welcome_To_RapidBox">Welcome To RapidBox</string>
+    <string name="We_are_currently_serving_only_in_Bangluru_We_will_be_coming_to_other_cities_soon">We are currently serving only in Bengaluru, We will be coming to other cities soon.</string>
+    <string name="OK">OK</string>
+    <string name="Your_detected_location">Your detected location</string>
+    <string name="Ahemdabad">Ahemdabad</string>
+    <string name="Try_again">Try again</string>
+    <string name="off">60% Off</string>
+    <string name="Our_service_are_location_specific_please_select_your_city">Our service is location specific, please select your city.</string>
+    <string name="Detected_via_GPS">Detect via GPS"</string>
+    <string name="Select_Size">Select Size</string>
+    <string name="Size_Chart">Size Chart</string>
+    <string name="Product_Name">Product Name</string>
+    <string name="SORT_BY">SORT</string>
+    <string name="WISHLIST">WISHLIST</string>
+    <string name="VIEW_ALL">VIEW ALL</string>
+    <string name="Men">Men</string>
+    <string name="Are_you_sure_want_to_cancel_return_order">Are you sure want to cancel the return request?</string>
+    <string name="Are_you_sure_want_to_cancel_exchange_order">Are you sure want to cancel the exchange request?</string>
+    <string name="Upload_Image">Upload Image</string>
+    <string name="Camera">Camera</string>
+    <string name="Gallery">Gallery</string>
+    <string name="Do_you_have_a_referral_code">Enter your referral code here(Optional)</string>
+    <string name="Do_you_have_a_referral_code_optional">Do you have a referral code?(Optional)</string>
+    <string name="Do_you_have_a_referral">Do you have a referral or community joining code?</string>
+    <string name="Reffral_detail">Referral invite codes can get you some exciting offer prices on all products across Rapidbox.</string>
+    <string name="SKIP">SKIP</string>
+    <string name="SUBMIT">SUBMIT</string>
+    <string name="Order_Total">Order Total:</string>
+    <string name="imagnext">0/0</string>
+    <string name="Create_New_Communities">Create New Community</string>
+    <string name="No_Order_found">No Orders Found</string>
+    <string name="Buy_with_Freind">Buy with Friend</string>
+    <string name="CANCEL_ENTIRE_ORDER">CANCEL ENTIRE ORDER</string>
+    <string name="Cancel_Return">Cancel Return Request</string>
+    <string name="RETURN_ENTIRE_ORDER">RETURN ENTIRE ORDER</string>
+    <string name="COLORS">COLORS</string>
+    <string name="SIZES">SIZES</string>
+    <string name="DELIVERY_AND_SHIPPING">DELIVERY AND SHIPPING</string>
+    <string name="Pincode">Pincode</string>
+    <string name="View_All_reviews">View All</string>
+    <string name="WRITE_A_REVIEW">WRITE A REVIEW</string>
+    <string name="UPDATE_REVIEW">UPDATE REVIEW</string>
+    <string name="SORT">SORT</string>
+    <string name="FILTER">FILTER</string>
+    <string name="Edit_Photo">Edit Photo</string>
+    <string name="product_and_prices">Product and Prices</string>
+    <string name="Application_Experience">Application Experience</string>
+    <string name="Delivery_Experience">Delivery Experience</string>
+    <string name="comments">Comments</string>
+    <string name="write_here">Write your comments here.</string>
+    <string name="How_to_earn_referral_coins">How to earn referral counts ?</string>
+    <string name="Tap_to_copy">Tap to copy</string>
+    <string name="Rating">Rating</string>
+    <string name="Ratings">Ratings</string>
+    <string name="Review_Headline">Review Headline</string>
+    <string name="Write_your_review">Write your review</string>
+    <string name="View_All_review">View All review</string>
+    <string name="Write_a_review">Write a review</string>
+    <string name="Default_static">Default</string>
+    <string name="No_Address_added_Yet">No Address Found</string>
+    <string name="Checkout">Checkout</string>
+    <string name="SET_DEFAULT">SET DEFAULT</string>
+    <string name="CREATE_NEW_ACCOUNT">CREATE NEW ACCOUNT</string>
+    <string name="Already_have_an_account">Already have an account? </string>
+    <string name="Need_Help">Need Help? Contact Here</string>
+    <string name="Next">Next</string>
+    <string name="Nothing_in_your_Wishlist_yet">Nothing in your wishlist yet.</string>
+    <string name="timer">:</string>
+    <string name="Select_Photos">Select Photos</string>
+    <string name="Buy_together_price">Buy together price</string>
+
+
+    <string name="Read_More">Read More</string>
+    <string name="TRANSACTION_FAILURE">TRANSACTION FAILURE</string>
+    <string name="Community_Price">Community Price</string>
+    <string name="MOVE_TO_WISHLIST">MOVE TO WISHLIST</string>
+
+    <string name="Payment_failure_text">Looks like there was some technical error. We have recorded your payment, your order placement will be retried again.The inconvenience caused is deeply regretted. </string>
+    <string name="Dismiss">Dismiss</string>
+    <string name="Something_went_wrong">OOPS! Something Went Wrong.</string>
+    <string name="empty_cart_detail">Add items to it now.</string>
+    <string name="YOUR_CART_IS_EMPTY">Your cart is empty</string>
+    <string name="Personal_Information">Personal Information</string>
+    <string name="Invite_your_Freinds_to_join">Invite more people to join: </string>
+    <string name="no_wishlist_detail">Save product you like in your wishlist and get ready for quick checkouts.</string>
+    <string name="no_address_detail">Tap Add New Address button below to add your first shipping address and start shopping. </string>
+
+
+    <string name="not_serving">We regret to inform that RapidBox is not currently live in your detected city. please go back and select the city manually.</string>
+    <string name="tick">%1$s\n\u2713</string>
+    <string name="tickleft">%1$s</string>
+    <string name="Unique_Link_and_Product_Description_Copied">\u2713 Unique Link and Product Description Copied</string>
+    <string name="create_com">\nProvide name and address of your community</string>
+
+    <string name="OR">OR</string>
+    <string name="You_need_to_login">You need to login</string>
+    <string name="Rate_Your_Purchase">Rate Your Purchase</string>
+
+    <string name="I_Understand"> I Understand</string>
+    <string name="Payment_Safety">Payment Safety</string>
+
+    <string name="share">share</string>
+    <string name="Are_you_sure_want_to_logout">Are you sure want to logout?</string>
+    <string name="Are_you_sure_want_to_remove_item">Are you sure you want to remove this item?</string>
+    <string name="Are_you_sure_want_to_remove_address">Are you sure you want to delete this?</string>
+    <string name="Are_you_sure_you_want_to_remove_the_applied_deal_discount">Are you sure you want to remove the applied deal discount?</string>
+    <string name="Are_you_sure_want_to_move_this_item">Are you sure you want to move this item to wishlist?</string>
+    <string name="Internet_Connection_Lost">Internet Connection Lost</string>
+    <string name="connection_not_available">Connection not available</string>
+    <string name="Provide_a_headline_for_your_review">Review Headline</string>
+    <string name="Not_Now">Not Now</string>
+    <string name="TELL_US_MORE">TELL US MORE</string>
+    <string name="Proceed">Proceed</string>
+
+    <string name="SUBMIT_REVIEW">SUBMIT REVIEW</string>
+    <string name="Total_label">Total</string>
+
+    <string name="CREATE_AND_ADD_MEMBERS">CREATE AND ADD MEMBERS</string>
+    <string name="Create_Community">Create Community</string>
+    <string name="Choose_Date_And_TIme">Choose Date And TIme</string>
+    <string name="date">Date"</string>
+    <string name="Rapidbox_support_center">RapidBox support center</string>
+    <string name="Help_And_Support">Help And Support</string>
+    <string name="Our_Office">Office Location</string>
+    <string name="Contact_Details">Contact Details:</string>
+    <string name="Contact">Contact</string>
+    <string name="Emailhelp">Email:</string>
+    <string name="CALL_RAPIDBOX_HELPLINE">Rapidbox helpline</string>
+    <string name="MAIL_RAPIDBOX_HELPLINE">Email us </string>
+    <string name="CLICK_HERE_GET_A_CALL_FROM_US">GET A CALL FROM US</string>
+    <string name="Move_To_Top">Move To Top</string>
+    <string name="Do_you_have_a_community_joining_code">Do you have a community joining code?</string>
+    <string name="Refresh">Refresh</string>
+    <string name="Save">Save</string>
+    <string name="Lets_Get_Started">Let\u0027s Get Started</string>
+    <string name="See_details">See Details</string>
+    <string name="Refer_Now">Refer Now:</string>
+    <string name="Notification_Sample_App">Notification Sample App</string>
+    <string name="Sold_Out">Sold Out</string>
+    <string name="GRAB_FOR_FREE">GRAB FOR FREE</string>
+    <string name="Brown_Lofers_From_Superio">Brown Lofers From Superio</string>
+    <string name="Month_Warranty">Month Warranty</string>
+    <string name="CLAIM_YOUR_REWARD_HERE">CLAIM YOUR REWARD HERE</string>
+    <string name="Thanks_for_your_amazing_choice">Thanks for your amazing choice.</string>
+    <string name="Address_removed_Successfull">Address successfully removed.</string>
+    <string name="Default_address_added_successfully">Default address added successfully.</string>
+    <string name="SHOPPING_CART">SHOPPING CART</string>
+    <string name="You_need_to_login_to_check_wishlist">You need to login to check wishlist</string>
+    <string name="Item_moved_to_wishlist">Item moved to wishlist</string>
+    <string name="Item_is_remove_from_cart">Item is removed from cart</string>
+    <string name="Product_removed_From_Wishlist">Item removed from wishlist</string>
+    <string name="No_Items_Added_To_Wishlist">No Items Added To Wishlist</string>
+    <string name="Please_Select_Size">Please select size</string>
+
+
+    <string name="Buy_at">Buy at</string>
+
+
+
+    <string name="COMMUNITY_PRICE">COMMUNITY PRICE</string>
+    <string name="Buying_at_your_community_location_gives_you_amazing_savings">Enjoy low prices on our quality products by creating or joining communities.</string>
+    <string name="Your_Unused_Referral_Counts">Your Unused Referral Counts</string>
+    <string name="Refer_your_friends_and_family_to_install_the_app_and_avail_an_unimaginable_price">Minimum 3 members are required to form a valid community.</string>
+    <string name="Your_Refferal_Journey">Your Refferal Journey</string>
+    <string name="Start_earning_referral_counts_Refer_now">Start earning referral counts.</string>
+    <string name="Unlock_exciting_gifts">Unlock exciting gifts by referring Rapidbox to your friends and family. So start sharing now. </string>
+    <string name="Introducing">RapidBox</string>
+    <string name="THE_BUY_TOGETHER">The Community Based App</string>
+    <string name="SAVE_GREAT_APP">SAVE GREAT APP</string>
+    <string name="We_have">We have</string>
+    <string name="No_rentals_cost">No rentals cost</string>
+    <string name="No_middlemen_anywhere">No middlemen anywhere </string>
+    <string name="No_crappy_celeb_payouts">No crappy celeb payouts</string>
+    <string name="Negligible_advertising_expenses">Negligible advertising expenses</string>
+    <string name="No_one_likes_to_overpay">No one likes to Overpay.</string>
+    <string name="Still_we_always_do">Still, We always do !!.</string>
+    <string name="Address_added_Successfully">Address added successfully</string>
+    <string name="Currently_we_are_not_serving_in_your_area">Currently we are not serving in your area</string>
+    <string name="Please_give_rating">Please provide ratings</string>
+    <string name="New_Community_added_successfully">New community added successfully</string>
+    <string name="Please_Enter_Contact_number">Please provide contact number</string>
+    <string name="Please_Choose_Date">Please Choose Date</string>
+    <string name="please_select_time">Please select time</string>
+    <string name="Thank_You_Our_Support_Team_Will_contact_you_within_specified_time">Thank You. Our support team will contact you at specified time</string>
+    <string name="HOME">HOME</string>
+    <string name="Error_in_Processing_Select_City">We are unable to detect your city,Please select from the given list.</string>
+    <string name="Upload_Pictures_Option">Upload image</string>
+    <string name="please_select_community">please select community</string>
+    <string name="Thanks_for_rating_Tell_us_more_about_your_experience">Thanks for rating, Tell us more about your experience</string>
+
+
+    <string name="Your_contact_number">Your contact number</string>
+    <string name="ADDITIONAL_DELIVERY_DETAILS">ADDITIONAL DELIVERY DETAILS</string>
+    <string name="flate_no_house_no">Flat No./House No/Landmark etc*</string>
+    <string name="CREATE_YOUR_OWN_BUYING_COMMUNITY">CREATE YOUR OWN BUYING COMMUNITY</string>
+    <string name="Checkout_from_your_existing_community">Checkout from your existing community</string>
+    <string name="What_do_you_think_about_product">Write here</string>
+    <string name="MOVE_TO_CART">ADD TO BAG</string>
+    <string name="GO_TO_CART">GO TO CART</string>
+    <string name="OUT_OF_STOCK">SOLD OUT</string>
+    <string name="marketprice">Market Price ₹%1$s</string>
+    <string name="Member">Member: %1$s</string>
+    <string name="Members">Members: %1$s</string>
+    <string name="bullet">\u2022 %1$s </string>
+    <string name="star">★ %1$s  </string>
+    <string name="free_product_info">Refer 15 friends in Bengaluru to install our app to get this or any other product of your choice absolutely free.\n\n
+        No extra delivery charges or taxes.\n\n
+        Referral count available on product pages.\n\n
+        Refer Now !</string>
+    <string name="Yes_I_want_to_close_this">Yes,I want to close this!</string>
+    <string name="If_you_choose_to_close_the_verification_window_you_can_verify_your_details_later_at_sign_up_log_in_screen">If you choose to close the verification window, you can verify your details later at sign up/log in screen</string>
+    <string name="ENTER_YOUR_REFERRAL_CODE">ENTER YOUR REFERRAL CODE</string>
+    <string name="Enter_Referral_code">Deal/Referral Code</string>
+    <string name="Wallet">RapidWallet</string>
+    <string name="Desc">Desc</string>
+    <string name="YOUR_DELIVERY_DETAILS">YOUR DELIVERY DETAILS</string>
+    <string name="Choose_Your_Community">Choose Your Community</string>
+    <string name="meh">Meh!\nShare Feedback</string>
+    <string name="loved">Loved it!\n Rate us on Play Store</string>
+    <string name="Mind_rating_us_on_Playstore">Mind rating us on Playstore ?</string>
+    <string name="Product_is_already_in_cart">Product is already in cart</string>
+    <string name="Provide_name_and_address_of_your_workplace">Provide name and address of your workplace</string>
+    <string name="Provide_name_and_address_of_your_residential_area">Provide name and address of your residential area</string>
+    <string name="Provide_name_and_address_of_your_institution">Provide name and address of your institution</string>
+    <string name="Note_You_need_to_add_minimum_2_member_other_than_you_to_form_a_valid_community">Note: You need to add minimum 2 member other than you to form a valid community.</string>
+    <string name="Dear_customer_this_feature_is_not_supported_on_your_phone">Dear customer, this feature is not supported on your phone.</string>
+    <string name="ratingsandreview">Reviews </string>
+    <string name="No">No</string>
+    <string name="yes_change_it">yes,change it</string>
+    <string name="sorry_we_do_not_ship_to_this_pinCode_Try_another">Sorry,we do \nnot ship to \nthis pinCode.
+    </string>
+    <string name="Review_Added">Review Added</string>
+    <string name="Product_removed_from_wishlist">Product removed from wishlist</string>
+    <string name="Product_added_to_wishlist">Product added to wishlist</string>
+
+
+    <string name="Select_your_UPI_Wallet">Select your UPI Wallet</string>
+    <string name="Redeem">Redeem ₹</string>
+    <string name="Amount">Amount*</string>
+    <string name="Phone_no_associated_with_UPI">Phone no. associated with UPI*</string>
+    <string name="Load_More">Load More</string>
+    <string name="No_More_Transactions_Found">No More Transactions Found</string>
+    <string name="TOP_EARNERS_LEADERBOARD">TOP EARNERS LEADERBOARD</string>
+    <string name="REDEEM_REFERRAL_CASH">REDEEM USABLE CASH</string>
+    <string name="Find_product_to_Earn_Cash">Find product to Earn Cash </string>
+    <string name="Search_products_to_share">Search products to share</string>
+    <string name="characterfilter">abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="Earned">Earned</string>
+    <string name="Shares">Shares</string>
+    <string name="Please_Select_UPI_Wallet">Please Select UPI Wallet</string>
+    <string name="Please_Provide_Amount">Please Provide Amount</string>
+    <string name="Please_Enter_Valid_Amount">Please Enter Valid Amount</string>
+    <string name="SHARE_SELECTION">SHARE SELECTION</string>
+    <string name="DETAILS">DETAILS</string>
+    <string name="Write_a_caption">Write a caption</string>
+    <string name="demo_min_label">Min</string>
+    <string name="demo_max_label">Max</string>
+
+
+    <!-- new design !-->
+    <string name="onboarding1_heading">Great quality fashion \n at super affordable prices</string>
+    <string name="onboarding2">Get free products \n and electronic gadgets.</string>
+    <string name="onboarding3_heading">Earn money using \n Facebook, WhatsApp and Instagram</string>
+
+    <string name="detail1">All products made with best quality materials. \n Shipped directly to you.</string>
+    <string name="detail2">Just send deals to your friends and groups \n to get free products and electronic gadgets.</string>
+    <string name="detail3">Pickup relevant deals and send it to your friends \n and earn money.</string>
+
+    <string name="whats_your_mobile_number">Whats your\nMobile Number?</string>
+    <string name="whats_your_name">Whats your Name?</string>
+    <string name="sendingotp">We will be sending a One-Time-Password to your
+mobile number</string>
+    <string name="One_time_password">A one Time-Password has been sent to your device.please check your messages.</string>
+    <string name="Get_free_products_using_your_Rapidcoin_balance">Get free products \nusing your \nRapidcoin balance</string>
+
+    <string name="viewtc">View T&amp;C</string>
+    <string name="Share_This_deal">Share This deal</string>
+    <string name="Free_Gadgets">Free Gadgets</string>
+    <string name="Rapidcoin_balance">Your Rapidcoin\n balance</string>
+    <string name="VIEW_ALL_new">VIEW\nALL</string>"
+    <string name="step1">Share deals daily\on whatsapp and instagram</string>
+    <string name="step2">Earn 75 coins \nevery time someone buys \nthrough your deal link</string>
+    <string name="usable_money">*You will receive the difference amount after the return period of the items purchased through your referral is over.</string>
+    <string name="Usable_Rapidcoins">Usable \nRapidcoins</string>
+    <string name="Enter_your_pincode"><u>Enter your pincode</u></string>
+
+    <string name="Code_not_valid">Code not \nvalid</string>
+    <string name="dealexplainer_1">Whenever your friends buys any \nproduct from the deals you \nshared, you will receive 75 coins \nfor every order.</string>
+    <string name="dealexplainer_2">Hit share button and send it to your \nfriends. Yes, its that simple!</string>
+    <string name="Share_this_product_with_your">Share this product with your </string>
+
+    <string name="friends_and_get">friends and get</string>
+    <string name="on_each_purchase_they_make">on each purchase they make.</string>
+    <string name="Share">Share</string>
+    <string name="Select_an_address_for_delivery">Select an address for delivery</string>
+    <string name="Add_a_new_address">Add a new address</string>
+    <string name="payment_failure">Looks like there was some technical error. Your order placement is not successful. If you are charged, your amount will be refunded within 4–5 working days. You can also write to us at support@rapidbox.in. The inconvenience caused is deeply regretted.</string>
+    <string name="test">You have 130 usable Rapidcoins. Earn 40 more to claim your first free product.</string>
+    <string name="Earn_More">Earn\nMore</string>
+    <string name="share_this_product">Share this product with your friends</string>
+    <string name="order_success_msg">Your order is placed. We will deliver it to\n your doorsteps shortly.</string>
+    <string name="return_submit_message">Your return request is placed. We will pick it from your doorsteps shortly.</string>
+    <string name="Usable_Rapidcoinss">Usable \nRapidcoins</string>
+    <string name="Total_RapidCoins">Total \nRapidCoins</string>
+    <string name="BRB">BRB</string>
+    <string name="backend_improvement">Rapidbox is getting upgraded. We \nwill be back soon. Thanks for your \npatience!</string>
+    <string name="Rapidcoins_applied">Rapidcoins applied</string>
+    <string name="Select_a_reason_for_cancel">Select a reason for cancel</string>
+    <string name="Select_a_reason_for_return">Select a reason for return</string>
+    <string name="exchange_size">Select the Size you want</string>
+    <string name="helpandsupportnew">To help us resolve your issues, please mail us with the issue details. Click on the below button</string>
+    <string name="banaccount_note">*We do not share your account details with anyone. Also, we never ask for any password or OTP related to the bank transaction. Never share your bank account password or OTP.</string>
+    <string name="select_size_you_want">Select a size you want</string>
+    <string name="stock_out">Stock Out</string>
+    <string name="Withdraw_amount">Withdraw \n Amount</string>
+    <string name="wallet_bottom_msg">*You can also use the balance in future purchases as well</string>
+    <string name="You_don_t_have_any_wallet_history_yet">You don’t have any \nwallet history yet</string>
+    <string name="transfer_success">We’ve successfully received your redeem request, your amount will be reflected in your bank account in 3-5 working days</string>
+    <string name="transfer_failure">Opps ! Some error occurred and your transactional request failed. Please try again.</string>
+    <string name="order_details_refund">Amount refunded in Rapidwallet.\nYou can transfer it to your bank account or use it for future purchases.</string>
+    <string name="rapidcoin_to_wallet_desc">This amount will be transferred to your Rapidwallet which can be used for future purchases or withdrawing to your bank account</string>
+    <string-array name="gender">
+        <item>Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string name="Earned_Coins">Earned Coins</string>
+    <string name="Usable_Coins">Usable Coins</string>
+    <string name="Rapidcoins">Rapidcoins</string>
+    <string name="Deal_expires_in">Deal expires in</string>
+    <string name="Get_free_gadgets_using_Rapid_Coins">Get free gadgets using Rapid Coins</string>
+    <string name="EXPLORE_MORE">EXPLORE MORE</string>
+    <string name="Available_deals_to_share">Available deals to share</string>
+    <string name="New">(New)</string>
+    <string name="Rate_this_product">Rate this product</string>
+    <string name="What_happens_next">What happens next?</string>
+
+    <string name="otpverification"><b>OTP</b> for New orders is <b>1234</b>\n\n<b>OTP</b> for Return orders is <b>1234</b></string>
+    <string name="otp"><b>OTP : 1234</b> .Please share this OTP during delivery.</string>
+    <string name="Reset_Filter">Reset Filter</string>
+    <string name="Apply_Changes">Apply Changes</string>
+    <string name="Subcategory_Type">Subcategory Type</string>
+    <string name="Price_Range">Price Range</string>
+    <string name="Premium">Premium</string>
+    <string name="Share_Now">Share Now</string>
+
 </resources>
+
+

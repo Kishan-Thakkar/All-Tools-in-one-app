@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TagFlowLayout">
+        <attr name="auto_select_effect" format="boolean" />
+        <attr name="max_select" format="integer" />
+        <attr name="gravity">
+            <enum name="left" value="-1" />
+            <enum name="center" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="CropImageView">
+        <attr name="guidelines">
+            <enum name="on" value="2" />
+            <enum name="onTouch" value="1" />
+            <enum name="off" value="0" />
+        </attr>
+        <attr name="fixAspectRatio" format="boolean" />
+        <attr name="aspectRatioX" format="integer" />
+        <attr name="aspectRatioY" format="integer" />
+        <attr name="imageResource" format="reference" />
+    </declare-styleable>
+
+
+    <declare-styleable name="ScrollableLayout">
+
+        <attr name="scrollable_maxScroll" format="dimension" />
+        <attr name="scrollable_scrollerFlywheel" format="boolean" />
+        <attr name="scrollable_considerIdleMillis" format="integer" />
+        <attr name="scrollable_defaultCloseUp" format="boolean" />
+        <attr name="scrollable_friction" format="float" />
+
+        <attr name="scrollable_closeUpAnimationMillis" format="integer" />
+        <attr name="scrollable_closeUpAnimatorInterpolator" format="reference" />
+
+        <attr name="scrollable_autoMaxScroll" format="boolean" />
+        <attr name="scrollable_autoMaxScrollViewId" format="reference" />
+
+        <attr name="scrollable_scrollingHeaderId" format="reference" />
+
+    </declare-styleable>
+
+    <declare-styleable name="SpannedGridLayoutManager">
+        <attr name="android:orientation" />
+        <attr name="spanCount" />
+        <attr name="aspectRatio" format="string" />
+    </declare-styleable>
+
+    <attr name="gradientStart" format="color" />
+    <attr name="gradientEnd" format="color" />
+
+    <declare-styleable name="GradientButton">
+        <attr name="gradientStart" />
+        <attr name="gradientEnd" />
+    </declare-styleable>
+
+
+    <declare-styleable name="GradientTextView">
+        <attr name="gradientStart" />
+        <attr name="gradientEnd" />
+    </declare-styleable>
+
+    <declare-styleable name="RangeBar">
+        <attr name="tickStart" format="float" />
+        <attr name="tickEnd" format="float" />
+        <attr name="tickInterval" format="float" />
+        <attr name="tickHeight" format="dimension" />
+        <attr name="tickColor" format="color" />
+        <attr name="barWeight" format="dimension" />
+        <attr name="rangeBarColor" format="reference|color" />
+        <attr name="textColor" format="reference|color" />
+        <attr name="pinColor" format="reference|color" />
+        <attr name="selectorSize" format="dimension" />
+        <attr name="selectorBoundaryColor" format="reference|color" />
+        <attr name="selectorBoundarySize" format="dimension" />
+        <attr name="pinPadding" format="dimension" />
+        <attr name="pinMinFont" format="dimension" />
+        <attr name="pinMaxFont" format="dimension" />
+        <attr name="rangeBarPaddingBottom" format="dimension" />
+        <attr name="selectorColor" format="reference|color" />
+        <attr name="rangeBar" format="boolean" />
+        <attr name="temporaryPins" format="boolean" />
+        <attr name="connectingLineWeight" format="dimension" />
+        <attr name="connectingLineColor" format="reference|color" />
+        <attr name="pinRadius" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="PinEntryView">
+        <!-- The number of digits in the pin -->
+        <attr name="numDigits" format="integer" />
+        <!-- Digit dimensions, default 50dp x 50dp -->
+        <attr name="digitWidth" format="dimension" />
+        <attr name="digitHeight" format="dimension" />
+        <!-- Spacing between the pin boxes, default 20dp -->
+        <attr name="digitSpacing" format="dimension" />
+        <!-- Digit background, colour or drawable -->
+        <attr name="digitBackground" format="reference|color" />
+        <!-- Font size to use for the mask text, default 15sp -->
+        <attr name="digitTextSize" format="dimension" />
+        <!-- Colour of the mask text, defaults to theme textColorPrimary -->
+        <attr name="digitTextColor" format="color" />
+        <!-- Digit elevation (API 21+ only), default 0dp -->
+        <attr name="digitElevation" format="dimension" />
+        <!-- The character to use to mask the input -->
+        <attr name="mask" format="string" />
+        <!-- Accent color, defaults to theme colorAccent -->
+        <attr name="pinAccentColor" format="color" />
+        <!-- Accent width, default 3dp -->
+        <attr name="accentWidth" format="dimension" />
+        <!-- Accent type, default 'character' -->
+        <attr name="accentType" format="enum">
+            <enum name="none" value="0" />
+            <enum name="all" value="1" />
+            <enum name="character" value="2" />
+        </attr>
+        <!-- Input type -->
+        <attr name="pinInputType" format="enum">
+            <enum name="text" value="1" />
+            <enum name="number" value="2" />
+        </attr>
+        <attr name="pinType" format="enum">
+            <enum name="single" value="1" />
+            <enum name="multiple" value="2" />
+        </attr>
+        <!-- Only draw accent when View has focus -->
+        <attr name="accentRequiresFocus" format="boolean" />
+    </declare-styleable>
+
+
+    <declare-styleable name="RangeSeekBar">
+        <!-- the minimum of the range -->
+        <attr name="absoluteMinValue" format="integer|float" />
+
+        <!-- the maximum of the range -->
+        <attr name="absoluteMaxValue" format="integer|float" />
+
+        <!-- the step value -->
+        <attr name="step" format="integer|float" />
+
+        <!-- show a single slider -->
+        <attr name="singleThumb" format="boolean" />
+
+        <!-- show the labels on the right and left-->
+        <attr name="showLabels" format="boolean" />
+
+        <!-- alwaysActive will make the buttons and bar always draw as the activeColor (the default is false) -->
+        <attr name="alwaysActive" format="boolean" />
+
+        <!-- show the currently selected value above each thumb (defaults to true) -->
+        <attr name="valuesAboveThumbs" format="boolean" />
+
+        <!-- padding on either side on the slider -->
+        <attr name="internalPadding" format="dimension" />
+
+        <!-- the height of the bar -->
+        <attr name="barHeight" format="dimension" />
+
+        <!-- the color of the bar that is not selected -->
+        <attr name="defaultColor" format="color" />
+
+        <!-- the color of the bar that is selected -->
+        <attr name="activeColor" format="color" />
+
+        <!-- the color of the text above thumbs -->
+        <attr name="textAboveThumbsColor" format="color" />
+
+        <!-- set drawables for thumb handles -->
+        <attr name="thumbNormal" format="reference" />
+        <attr name="thumbPressed" format="reference" />
+        <attr name="thumbDisabled" format="reference" />
+
+        <!-- thumb shadow specifications -->
+        <attr name="thumbShadow" format="boolean" />
+        <attr name="thumbShadowColor" format="color" />
+        <attr name="thumbShadowXOffset" format="dimension" />
+        <attr name="thumbShadowYOffset" format="dimension" />
+        <attr name="thumbShadowBlur" format="dimension" />
+
+        <!-- to activate the thumbs and texts when the min and max values are the default ones (defaults to false) -->
+        <attr name="activateOnDefaultValues" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="FloatingInputLayout">
+        <attr name="ffieldHint" format="string" />
+        <attr name="ferrText" format="string" />
+        <attr name="feditTextId" format="reference" />
+        <attr name="finputLayout" format="reference" />
+        <attr name="finputType" format="integer" />
+    </declare-styleable>
+
+
+</resources>
